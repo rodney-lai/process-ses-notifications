@@ -12,9 +12,5 @@
   "function-runtime": "dotnetcore1.0",
   "function-memory-size": 256,
   "function-timeout": 30,
-  "function-handler": "ProcessSESNotifications::ProcessSESNotifications.Function::FunctionHandler",
-  "additional-files": [
-    "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll",
-    "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll"
-  ]
+  "function-handler": "ProcessSESNotifications::ProcessSESNotifications.Function::FunctionHandler"
 }
